@@ -15,10 +15,10 @@ You should create one R script called run_analysis.R that does the following.
 1. Download the data source and uncompress it in ```"./data"``` folder. You'll have a ```UCI HAR Dataset``` folder.
 2. Put ```run_analysis.R``` in the parent folder of ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function in RStudio.
 3. Run ```source("run_analysis.R")```, then it will generate a new file ```tiny_data.txt``` in your working directory.
-4. Produce ```CodeBook.md``` with a list of column names (which were taken from ```features.txt```)
 
 
-## The ```run.analysis.R``` has the following functions: 
+
+## The ```run.analysis.R``` uses the following steps: 
 1. Load the label codes key from ```activity_labels.txt```.
 2. Load the feature key from ```features.txt```.
 3. Determine the indices of features containing -mean() or -std()).
