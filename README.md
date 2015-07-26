@@ -12,13 +12,13 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Steps to work on this course project
 
-1. Download the data source and uncompress it in ```"./data"``` folder. You'll have a ```UCI HAR Dataset``` folder.
-2. Place ```run_analysis.R``` file in the ```./data``` folder, then set it as your working directory using ```setwd()``` function in RStudio.
-3. Run ```source("run_analysis.R")```, that will generate a new file ```tiny_data.txt``` in your working directory.
+1. Download the data source and uncompress it in ```"./data"``` folder. There will be a ```UCI HAR Dataset``` folder in the ```./data``` directory.
+2. Place ```run_analysis.R``` file in the ```./data``` folder, then set it as the working directory using ```setwd()``` function in RStudio.
+3. Run ```source("run_analysis.R")```, that will generate a new file ```tiny_data.txt``` in the working directory.
 
 
 
-## The ```run.analysis.R``` uses the following steps: 
+## The ```run_analysis.R``` uses the following steps: 
 1. Load the label codes key from ```activity_labels.txt```.
 2. Load the feature key from ```features.txt```.
 3. Load the test data and extract only the measurements on the mean and standard deviation for each measurement.
