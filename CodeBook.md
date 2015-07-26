@@ -57,7 +57,8 @@ There are 5 parts:
 
 1. Load the label codes key from activity_labels.txt.
 2. Load the feature key from features.txt
-3. Determine the indices of features containing -mean() or -std()).
-4. Load the training and test data sets and only retain data columns determined by indices from step #3.
-5. Merge the training and test data sets.
-6. Generate the ```tiny_data.txt``` file as the output file.
+3. Load the test data and extract only the measurements on the mean and standard deviation for each measurement.
+4. Determine the indices of features containing -mean() or -std()) for training data.
+5. Load the training data sets extract only the measurements on the mean and standard deviation for each measurement.
+6. Merge the test and training data sets.
+7. Generate the ```tiny_data.txt``` file as the output file.
