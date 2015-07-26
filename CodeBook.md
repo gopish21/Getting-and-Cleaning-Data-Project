@@ -60,6 +60,4 @@ There are 5 parts:
 3. Determine the indices of features containing -mean() or -std()).
 4. Load the training and test data sets and only retain data columns determined by indices from step #3.
 5. Merge the training and test data sets.
-6. Replace label codes in the dataset with text labels determined by step #1.
-7. Reshape data to use label and subject as identifiers.
-9. Generate the ```tiny_data.txt``` file as the output file.
+6. Generate the ```tiny_data.txt``` file as the output file.
