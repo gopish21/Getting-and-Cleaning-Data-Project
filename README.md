@@ -25,6 +25,5 @@ You should create one R script called run_analysis.R that does the following.
 4. Determine the indices of features containing -mean() or -std()) for training data.
 4. Load the training data sets extract only the measurements on the mean and standard deviation for each measurement.
 5. Merge the test and training data sets.
-6. Replace label codes in the dataset with text labels determined by step #1.
-7. Generate the ```tiny_data.txt``` file as the output file.
+6. Generate the ```tiny_data.txt``` file as the output file.
 
