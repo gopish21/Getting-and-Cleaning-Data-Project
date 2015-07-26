@@ -53,10 +53,10 @@ There are 5 parts:
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a new, independent tidy data set with the average of each variable for each activity and each subject.
 
-## The ```run_analysis.R``` uses the following steps:
+## The ```run_analysis.R``` has the following steps:
 
-1. Load the label codes key from activity_labels.txt.
-2. Load the feature key from features.txt
+1. Load the label codes key from ```activity_labels.txt```.
+2. Load the feature key from ```features.txt```.
 3. Load the test data and extract only the measurements on the mean and standard deviation for each measurement.
 4. Determine the indices of features containing -mean() or -std()) for training data.
 5. Load the training data sets extract only the measurements on the mean and standard deviation for each measurement.
