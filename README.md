@@ -13,18 +13,18 @@ You should create one R script called run_analysis.R that does the following.
 ## Steps to work on this course project
 
 1. Download the data source and uncompress it in ```"./data"``` folder. You'll have a ```UCI HAR Dataset``` folder.
-2. Put ```run_analysis.R``` in the parent folder of ```UCI HAR Dataset```, then set it as your working directory using ```setwd()``` function in RStudio.
-3. Run ```source("run_analysis.R")```, then it will generate a new file ```tiny_data.txt``` in your working directory.
+2. Place ```run_analysis.R``` file in the ```./data``` folder, then set it as your working directory using ```setwd()``` function in RStudio.
+3. Run ```source("run_analysis.R")```, that will generate a new file ```tiny_data.txt``` in your working directory.
 
 
 
 ## The ```run.analysis.R``` uses the following steps: 
 1. Load the label codes key from ```activity_labels.txt```.
 2. Load the feature key from ```features.txt```.
-3. Determine the indices of features containing -mean() or -std()).
-4. Load the training and test data sets and only retain data columns determined by indices from step #3.
-5. Merge the training and test data sets.
+3. Load the test data and extract only the measurements on the mean and standard deviation for each measurement.
+4. Determine the indices of features containing -mean() or -std()) for training data.
+4. Load the training data sets extract only the measurements on the mean and standard deviation for each measurement.
+5. Merge the test and training data sets.
 6. Replace label codes in the dataset with text labels determined by step #1.
-7. Reshape data to use label and subject as identifiers.
-8. Generate the ```tiny_data.txt``` file as the output file.
+7. Generate the ```tiny_data.txt``` file as the output file.
 
